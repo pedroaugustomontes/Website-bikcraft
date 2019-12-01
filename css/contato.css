@@ -1,6 +1,6 @@
 .interna_contato {
-  background: url("../img/bg-contato.jpg") no-repeat center;
-  background-size: cover;
+	background: url("../img/bg-contato.jpg") no-repeat center;
+	background-size: cover;
 }
 
 /*Orçamento*/
@@ -9,21 +9,13 @@
 	padding: 40px 0;
 }
 
-.contato h2 {
-	color: #fec63e;
-}
-
-.contato h2:after {
-	background: #fec63e;
-}
-
 .contato_form {
 	padding-right: 60px;
 }
 
 .contato_form label{
-  display: block;
-  font-family: Georgia, "Times New Roman", serif;
+	display: block;
+	font-family: Georgia, "Times New Roman", serif;
 	font-size: 18px;
 	line-height: 25px;
 	margin-bottom: 4px;
@@ -59,6 +51,10 @@
 	background: none;
 }
 
+.orcamento_dados {
+	color: #fff;
+}
+
 .contato_dados h3{
 	font-size: 18px;
 	line-height: 25px;
@@ -75,34 +71,28 @@
 }
 
 .contato_dados span:nth-of-type(even) {
-	margin-bottom: 22px;
+	margin-bottom: 30px;
+}
+
+.contato_dados ul {
+	margin-top: 10px;
 }
 
 .contato_dados ul li {
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 14px;
-	padding: 10px 0;
-}
-
-/* .orcamento_dados ul li:nth-child(odd) {
-	background: #1d1d1d;
-} */
-
-.contato_dados ul li {
-  display: inline-block;
-  margin-right: 10px;
+	display: inline-block;
+	margin-right: 10px;
 }
 
 .contato_dados ul li a {
-  border: 3px solid #fec63e;
-  display: block;
-  padding: 10px;
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 10px;
 }
 
 .contato_dados ul li a:hover {
-  border-color: #fff;
+	border-color: #000;
 }
 
 .contato_mapa {
-  margin-bottom: 50px;
+	margin-bottom: 60px;
 }
