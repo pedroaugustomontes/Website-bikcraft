@@ -365,18 +365,18 @@ img {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-.footer_redes ul li {
+.footer_redes_sociais ul li {
   display: inline-block;
   margin-right: 10px;
 }
 
-.footer_redes ul li a {
+.footer_redes_sociais ul li a {
   border: 3px solid #fec63e;
   display: block;
   padding: 10px;
 }
 
-.footer_redes ul li a:hover {
+.footer_redes_sociais ul li a:hover {
   border-color: #fff;
 }
 
