@@ -1,7 +1,7 @@
-/*Estilo para tablets*/
+/*Estilo para TABLETS*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
-/*Qualidade Home*/
+/* Qualidade HOME */
 .qualidade:after {
 	right: 66px;
 }
@@ -10,7 +10,7 @@
 	padding: 0 10px;
 }
 
-/*Footer*/
+/* FOOTER */
 
 .footer_redes ul li a {
 	border: 3px solid #fec63e;
@@ -26,10 +26,10 @@
 
 }
 
-/*Estilo para smartphone*/
+/* Estilo para SMARTPHONE */
 @media only screen and (max-width: 787px) {
 
-/*Header*/
+/* HEADER */
 .header {
 	position: relative;
 	padding-bottom: 0px;
@@ -58,7 +58,7 @@
 	border-color: #fff;
 }
 
-/*Introducao*/
+/* INTRODUCAO */
 
 .introducao h1 {
 	font-size: 36px;
@@ -71,12 +71,12 @@
 	background-size: cover;
 }
 
-/*Call*/
+/* Call */
 .call {
 	padding-top: 10px;
 }
 
-/*Qualidade Home*/
+/* Qualidade Home */
 .qualidade:after {
 	display: none;
 }
