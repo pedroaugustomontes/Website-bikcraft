@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
-  <script> document.documentElement.classList("js") </script>
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -33,12 +33,12 @@
 
   <section class="introducao-interna interna_portfolio">
     <div class="container">
-      <h1>Portfólio</h1>
-      <p>conheça os projetos que amamos mostrar</p>
+      <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+      <p data-anime="800" class="fadeInDown">conheça os projetos que amamos mostrar</p>
     </div>
   </section>
 
-  <section class="container" data-slide="quote">
+  <section data-anime="1200" class="fadeInDown container" data-slide="quote">
     <blockquote class="quote_clientes">
       <p>“No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão
         inovadora da qual fazemos parte.”</p>
@@ -119,7 +119,8 @@
     </div>
   </footer>
 
-  <script src="./js/simple-slide.js"></script>
+  <script src="./js/plugins/simple-slide.js"></script>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 
 </body>

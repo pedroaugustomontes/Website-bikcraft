@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="css/responsivo.css">
-	<script> document.documentElement.classList("js") </script>
+	<script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -33,12 +33,12 @@
 
 	<section class="introducao-interna interna_contato">
 		<div class="container">
-			<h1>Contato</h1>
-			<p>tire suas dúvidas com a gente</p>
+			<h1 data-anime="400" class="fadeInDown">Contato</h1>
+			<p data-anime="800" class="fadeInDown">tire suas dúvidas com a gente</p>
 		</div>
 	</section>
 
-	<section class="contato container">
+	<section data-anime="1200" class="fadeInDown contato container">
 		<form id="form_orcamento" class="contato_form grid-8">
 			<label for="nome">Nome</label>
 			<input type="text" id="nome">
@@ -65,7 +65,7 @@
 		</div>
 	</section>
 
-	<section class="container contato_mapa">
+	<section data-anime="1600" class="fadeInDown container contato_mapa">
 		<iframe class="grid-16"
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.3000438135005!2d-48.259824785318465!3d-18.9181088125244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a44574c062bad3%3A0x656d242f316ee167!2sUniversidade%20Federal%20de%20Uberl%C3%A2ndia!5e0!3m2!1spt-BR!2sbr!4v1575289484207!5m2!1spt-BR!2sbr"
 			width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -103,8 +103,7 @@
 					<ul>
 						<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg"></a>
 						</li>
-						<li><a href="http://instagram.com" target="_blank"><img
-									src="img/redes-sociais/instagram.svg"></a></li>
+						<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg"></a></li>
 						<li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg"></a>
 						</li>
 					</ul>
@@ -119,6 +118,9 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="./js/plugins/simple-anime.js"></script>
+	<script src="./js/script.js"></script>
 
 </body>
 

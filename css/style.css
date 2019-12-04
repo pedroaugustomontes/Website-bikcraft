@@ -386,7 +386,7 @@ img {
 	padding: 20px 0;
 }
 
-/* JAVASCRIPT */
+/* COMEÇO JAVASCRIPT */
 .js [data-slide] {
 	position: relative;
   }
@@ -400,7 +400,7 @@ img {
 .js  [data-slide] > .active {
 	position: relative;
 	opacity: 1;
-	transition: opacity 1000ms;
+	transition: opacity 500ms;
   }
 
 .js [data-slide] {
@@ -413,7 +413,7 @@ img {
 	  text-align: center;
   }
 
-.js[data-slide-nav] button {
+.js [data-slide-nav] button {
 	display: inline-block;
 	width: 12px;
 	height: 12px;
@@ -429,3 +429,18 @@ img {
 .js [data-slide-nav] button.active {
 	  background: #fec63e;
   }
+
+/* COMEÇO DA ANIMAÇÂO DE TEXTO */
+.js [data-anime] {
+	opacity: 0;
+}
+
+.js .fadeInDown {
+	transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+}
